@@ -1029,10 +1029,70 @@
       </node>
     </node>
   </node>
-  <node concept="vrV6u" id="6eLXiTKxV0G">
-    <property role="TrG5h" value="ParserFailureNotifierExtensionPoint" />
-    <node concept="3uibUv" id="6eLXiTKyInL" role="luc8K">
-      <ref role="3uigEE" node="6eLXiTKxV0M" resolve="ParserFailureNotifier" />
+  <node concept="sE7Ow" id="2EPKBwvXn_Z">
+    <property role="3GE5qa" value="insertPopup" />
+    <property role="TrG5h" value="ClearInsertPopupDefaultChoices" />
+    <property role="2uzpH1" value="Insert-Popup: Clear Default Choices" />
+    <node concept="tnohg" id="2EPKBwvXnA0" role="tncku">
+      <node concept="3clFbS" id="2EPKBwvXnA1" role="2VODD2">
+        <node concept="3clFbF" id="2EPKBwvXnJ3" role="3cqZAp">
+          <node concept="2OqwBi" id="2EPKBwvXnTQ" role="3clFbG">
+            <node concept="10M0yZ" id="2EPKBwvXnLt" role="2Oq$k0">
+              <ref role="3cqZAo" to="m9yn:2EPKBwvUics" resolve="INSTANCE" />
+              <ref role="1PxDUh" to="m9yn:2EPKBwvSnU2" resolve="InsertPopupSettings" />
+            </node>
+            <node concept="liA8E" id="2EPKBwvXyVB" role="2OqNvi">
+              <ref role="37wK5l" to="m9yn:2EPKBwvXpMZ" resolve="clearResolvedAmbiguities" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="sE7Ow" id="2EPKBwvYPoH">
+    <property role="3GE5qa" value="insertPopup" />
+    <property role="TrG5h" value="EnableInsertPopup" />
+    <property role="2uzpH1" value="Insert-Popup: Enable" />
+    <node concept="tnohg" id="2EPKBwvYPoI" role="tncku">
+      <node concept="3clFbS" id="2EPKBwvYPoJ" role="2VODD2">
+        <node concept="3clFbF" id="2EPKBwvYPoK" role="3cqZAp">
+          <node concept="2OqwBi" id="2EPKBwvYPoL" role="3clFbG">
+            <node concept="10M0yZ" id="2EPKBwvYPoM" role="2Oq$k0">
+              <ref role="3cqZAo" to="m9yn:2EPKBwvUics" resolve="INSTANCE" />
+              <ref role="1PxDUh" to="m9yn:2EPKBwvSnU2" resolve="InsertPopupSettings" />
+            </node>
+            <node concept="liA8E" id="2EPKBwvYQnE" role="2OqNvi">
+              <ref role="37wK5l" to="m9yn:2EPKBwvYi9o" resolve="setPopupDisabled" />
+              <node concept="3clFbT" id="2EPKBwvYQrr" role="37wK5m" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2ScWuX" id="2EPKBwvYPAV" role="tmbBb">
+      <node concept="3clFbS" id="2EPKBwvYPAW" role="2VODD2">
+        <node concept="3clFbF" id="2EPKBwvYPOv" role="3cqZAp">
+          <node concept="2OqwBi" id="2EPKBwvYQ7I" role="3clFbG">
+            <node concept="10M0yZ" id="2EPKBwvYPWY" role="2Oq$k0">
+              <ref role="3cqZAo" to="m9yn:2EPKBwvUics" resolve="INSTANCE" />
+              <ref role="1PxDUh" to="m9yn:2EPKBwvSnU2" resolve="InsertPopupSettings" />
+            </node>
+            <node concept="liA8E" id="2EPKBwvYQhJ" role="2OqNvi">
+              <ref role="37wK5l" to="m9yn:2EPKBwvYezt" resolve="isPopupDisabled" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="Zd50a" id="2EPKBwuw2$b">
+    <property role="TrG5h" value="GrammarCellKeymapChanges" />
+    <property role="3GE5qa" value="insertPopup" />
+    <node concept="Zd509" id="2EPKBwuw2$e" role="Zd508">
+      <ref role="1bYAoF" node="2EPKBwuucSj" resolve="InsertPopupAction" />
+      <node concept="pLAjd" id="2EPKBwuw2$g" role="Zd501">
+        <property role="pLAjf" value="VK_ENTER" />
+      </node>
     </node>
   </node>
   <node concept="sE7Ow" id="2EPKBwuucSj">
@@ -1380,36 +1440,6 @@
       </node>
     </node>
   </node>
-  <node concept="Zd50a" id="2EPKBwuw2$b">
-    <property role="TrG5h" value="GrammarCellKeymapChanges" />
-    <property role="3GE5qa" value="insertPopup" />
-    <node concept="Zd509" id="2EPKBwuw2$e" role="Zd508">
-      <ref role="1bYAoF" node="2EPKBwuucSj" resolve="InsertPopupAction" />
-      <node concept="pLAjd" id="2EPKBwuw2$g" role="Zd501">
-        <property role="pLAjf" value="VK_ENTER" />
-      </node>
-    </node>
-  </node>
-  <node concept="sE7Ow" id="2EPKBwvXn_Z">
-    <property role="3GE5qa" value="insertPopup" />
-    <property role="TrG5h" value="ClearInsertPopupDefaultChoices" />
-    <property role="2uzpH1" value="Insert-Popup: Clear Default Choices" />
-    <node concept="tnohg" id="2EPKBwvXnA0" role="tncku">
-      <node concept="3clFbS" id="2EPKBwvXnA1" role="2VODD2">
-        <node concept="3clFbF" id="2EPKBwvXnJ3" role="3cqZAp">
-          <node concept="2OqwBi" id="2EPKBwvXnTQ" role="3clFbG">
-            <node concept="10M0yZ" id="2EPKBwvXnLt" role="2Oq$k0">
-              <ref role="3cqZAo" to="m9yn:2EPKBwvUics" resolve="INSTANCE" />
-              <ref role="1PxDUh" to="m9yn:2EPKBwvSnU2" resolve="InsertPopupSettings" />
-            </node>
-            <node concept="liA8E" id="2EPKBwvXyVB" role="2OqNvi">
-              <ref role="37wK5l" to="m9yn:2EPKBwvXpMZ" resolve="clearResolvedAmbiguities" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
   <node concept="3HP615" id="6eLXiTKxV0M">
     <property role="TrG5h" value="ParserFailureNotifier" />
     <node concept="2tJIrI" id="6eLXiTKxV2c" role="jymVt" />
@@ -1432,40 +1462,10 @@
     <node concept="2tJIrI" id="6eLXiTKxV2h" role="jymVt" />
     <node concept="3Tm1VV" id="6eLXiTKxV0N" role="1B3o_S" />
   </node>
-  <node concept="sE7Ow" id="2EPKBwvYPoH">
-    <property role="3GE5qa" value="insertPopup" />
-    <property role="TrG5h" value="EnableInsertPopup" />
-    <property role="2uzpH1" value="Insert-Popup: Enable" />
-    <node concept="tnohg" id="2EPKBwvYPoI" role="tncku">
-      <node concept="3clFbS" id="2EPKBwvYPoJ" role="2VODD2">
-        <node concept="3clFbF" id="2EPKBwvYPoK" role="3cqZAp">
-          <node concept="2OqwBi" id="2EPKBwvYPoL" role="3clFbG">
-            <node concept="10M0yZ" id="2EPKBwvYPoM" role="2Oq$k0">
-              <ref role="3cqZAo" to="m9yn:2EPKBwvUics" resolve="INSTANCE" />
-              <ref role="1PxDUh" to="m9yn:2EPKBwvSnU2" resolve="InsertPopupSettings" />
-            </node>
-            <node concept="liA8E" id="2EPKBwvYQnE" role="2OqNvi">
-              <ref role="37wK5l" to="m9yn:2EPKBwvYi9o" resolve="setPopupDisabled" />
-              <node concept="3clFbT" id="2EPKBwvYQrr" role="37wK5m" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="2ScWuX" id="2EPKBwvYPAV" role="tmbBb">
-      <node concept="3clFbS" id="2EPKBwvYPAW" role="2VODD2">
-        <node concept="3clFbF" id="2EPKBwvYPOv" role="3cqZAp">
-          <node concept="2OqwBi" id="2EPKBwvYQ7I" role="3clFbG">
-            <node concept="10M0yZ" id="2EPKBwvYPWY" role="2Oq$k0">
-              <ref role="3cqZAo" to="m9yn:2EPKBwvUics" resolve="INSTANCE" />
-              <ref role="1PxDUh" to="m9yn:2EPKBwvSnU2" resolve="InsertPopupSettings" />
-            </node>
-            <node concept="liA8E" id="2EPKBwvYQhJ" role="2OqNvi">
-              <ref role="37wK5l" to="m9yn:2EPKBwvYezt" resolve="isPopupDisabled" />
-            </node>
-          </node>
-        </node>
-      </node>
+  <node concept="vrV6u" id="6eLXiTKxV0G">
+    <property role="TrG5h" value="ParserFailureNotifierExtensionPoint" />
+    <node concept="3uibUv" id="6eLXiTKyInL" role="luc8K">
+      <ref role="3uigEE" node="6eLXiTKxV0M" resolve="ParserFailureNotifier" />
     </node>
   </node>
 </model>
