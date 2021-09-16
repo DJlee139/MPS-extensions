@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model ref="r:d5239ba2-cf7c-43a5-8408-24daf38044ca(com.mbeddr.mpsutil.grammarcells.runtime.plugin)">
   <persistence version="9" />
+  <attribute name="doNotGenerate" value="false" />
   <languages>
     <use id="ef7bf5ac-d06c-4342-b11d-e42104eb9343" name="jetbrains.mps.lang.plugin.standalone" version="0" />
-    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="19" />
+    <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="18" />
     <use id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin" version="5" />
     <use id="c0080a47-7e37-4558-bee9-9ae18e690549" name="jetbrains.mps.lang.extension" version="2" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
@@ -1028,6 +1029,12 @@
       </node>
     </node>
   </node>
+  <node concept="vrV6u" id="6eLXiTKxV0G">
+    <property role="TrG5h" value="ParserFailureNotifierExtensionPoint" />
+    <node concept="3uibUv" id="6eLXiTKyInL" role="luc8K">
+      <ref role="3uigEE" node="6eLXiTKxV0M" resolve="ParserFailureNotifier" />
+    </node>
+  </node>
   <node concept="sE7Ow" id="2EPKBwuucSj">
     <property role="TrG5h" value="InsertPopupAction" />
     <property role="2uzpH1" value="Insert Popup" />
@@ -1403,6 +1410,28 @@
       </node>
     </node>
   </node>
+  <node concept="3HP615" id="6eLXiTKxV0M">
+    <property role="TrG5h" value="ParserFailureNotifier" />
+    <node concept="2tJIrI" id="6eLXiTKxV2c" role="jymVt" />
+    <node concept="3clFb_" id="6eLXiTKyvMu" role="jymVt">
+      <property role="TrG5h" value="notifyParsingTimedOut" />
+      <node concept="37vLTG" id="6eLXiTKyIe3" role="3clF46">
+        <property role="TrG5h" value="timeInMs" />
+        <property role="3TUv4t" value="true" />
+        <node concept="3cpWsb" id="6eLXiTKyIhI" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="6eLXiTKyw1x" role="3clF46">
+        <property role="TrG5h" value="contextModel" />
+        <property role="3TUv4t" value="true" />
+        <node concept="H_c77" id="6eLXiTKyFCL" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="6eLXiTKyvMw" role="3clF45" />
+      <node concept="3Tm1VV" id="6eLXiTKyvMx" role="1B3o_S" />
+      <node concept="3clFbS" id="6eLXiTKyvMy" role="3clF47" />
+    </node>
+    <node concept="2tJIrI" id="6eLXiTKxV2h" role="jymVt" />
+    <node concept="3Tm1VV" id="6eLXiTKxV0N" role="1B3o_S" />
+  </node>
   <node concept="sE7Ow" id="2EPKBwvYPoH">
     <property role="3GE5qa" value="insertPopup" />
     <property role="TrG5h" value="EnableInsertPopup" />
@@ -1438,34 +1467,6 @@
         </node>
       </node>
     </node>
-  </node>
-  <node concept="vrV6u" id="6eLXiTKxV0G">
-    <property role="TrG5h" value="ParserFailureNotifierExtensionPoint" />
-    <node concept="3uibUv" id="6eLXiTKyInL" role="luc8K">
-      <ref role="3uigEE" node="6eLXiTKxV0M" resolve="ParserFailureNotifier" />
-    </node>
-  </node>
-  <node concept="3HP615" id="6eLXiTKxV0M">
-    <property role="TrG5h" value="ParserFailureNotifier" />
-    <node concept="2tJIrI" id="6eLXiTKxV2c" role="jymVt" />
-    <node concept="3clFb_" id="6eLXiTKyvMu" role="jymVt">
-      <property role="TrG5h" value="notifyParsingTimedOut" />
-      <node concept="37vLTG" id="6eLXiTKyIe3" role="3clF46">
-        <property role="TrG5h" value="timeInMs" />
-        <property role="3TUv4t" value="true" />
-        <node concept="3cpWsb" id="6eLXiTKyIhI" role="1tU5fm" />
-      </node>
-      <node concept="37vLTG" id="6eLXiTKyw1x" role="3clF46">
-        <property role="TrG5h" value="contextModel" />
-        <property role="3TUv4t" value="true" />
-        <node concept="H_c77" id="6eLXiTKyFCL" role="1tU5fm" />
-      </node>
-      <node concept="3cqZAl" id="6eLXiTKyvMw" role="3clF45" />
-      <node concept="3Tm1VV" id="6eLXiTKyvMx" role="1B3o_S" />
-      <node concept="3clFbS" id="6eLXiTKyvMy" role="3clF47" />
-    </node>
-    <node concept="2tJIrI" id="6eLXiTKxV2h" role="jymVt" />
-    <node concept="3Tm1VV" id="6eLXiTKxV0N" role="1B3o_S" />
   </node>
 </model>
 
