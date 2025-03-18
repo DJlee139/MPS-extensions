@@ -277,7 +277,7 @@
     <language id="aff569ad-098d-414a-aa23-96963959392c" name="test.de.itemis.mps.editor.diagram.lang">
       <concept id="2458670456593291011" name="test.de.itemis.mps.editor.diagram.lang.structure.DiagramWithoutLayoutStore" flags="ng" index="3iSQj3" />
       <concept id="2387875361826161165" name="test.de.itemis.mps.editor.diagram.lang.structure.TextBoxContent" flags="ng" index="1kFiRK">
-        <property id="2387875361826161173" name="value" index="1kFiRC" />
+        <property id="2387875361826161173" name="value1" index="1kFiRC" />
       </concept>
       <concept id="2387875361826064795" name="test.de.itemis.mps.editor.diagram.lang.structure.Box" flags="ng" index="1kFUpA">
         <child id="2387875361826161150" name="content" index="1kFiS3" />
