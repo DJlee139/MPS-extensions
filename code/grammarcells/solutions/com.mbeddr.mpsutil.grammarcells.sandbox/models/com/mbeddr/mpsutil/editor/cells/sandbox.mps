@@ -454,7 +454,7 @@
     <node concept="3Ya08F" id="67iSu2w8daj" role="31Pkr9">
       <property role="TrG5h" value="Optional cell with all optional content" />
       <property role="31UekG" value="true" />
-      <ref role="31j7E3" node="67iSu2w8daj" />
+      <ref role="31j7E3" node="67iSu2w8daj" resolve="Optional cell with all optional content" />
       <node concept="1kHs8M" id="67iSu2wbmzr" role="3YaumF">
         <property role="1kHs8z" value="foo" />
       </node>

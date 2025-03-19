@@ -618,7 +618,7 @@
       </node>
       <node concept="2PBxew" id="6OfpnAgaowN" role="2PBxlK">
         <property role="TrG5h" value="contains" />
-        <ref role="2PBxlG" node="6OfpnAgaowx" />
+        <ref role="2PBxlG" node="6OfpnAgaowx" resolve="Department" />
       </node>
     </node>
     <node concept="2PBybn" id="6OfpnAgaowx" role="2PBxlY">
@@ -632,7 +632,7 @@
       <node concept="2PBxew" id="6OfpnAgaoxo" role="2PBxlK">
         <property role="2PBxlI" value="4_qW8fWLecA/composition" />
         <property role="TrG5h" value="belongs to" />
-        <ref role="2PBxlG" node="6OfpnAganVn" />
+        <ref role="2PBxlG" node="6OfpnAganVn" resolve="University" />
       </node>
     </node>
     <node concept="2PBybn" id="6OfpnAgao_O" role="2PBxlY">
@@ -648,7 +648,7 @@
       </node>
       <node concept="2PBxew" id="6OfpnAgaoxq" role="2PBxlK">
         <property role="TrG5h" value="works in" />
-        <ref role="2PBxlG" node="6OfpnAgaowx" />
+        <ref role="2PBxlG" node="6OfpnAgaowx" resolve="Department" />
       </node>
     </node>
     <node concept="2PBybn" id="6OfpnAgaowC" role="2PBxlY">
@@ -662,12 +662,12 @@
       <node concept="2PBxew" id="6OfpnAgaoxs" role="2PBxlK">
         <property role="TrG5h" value="offered by" />
         <property role="2PBxlI" value="4_qW8fWLecA/composition" />
-        <ref role="2PBxlG" node="6OfpnAgaowx" />
+        <ref role="2PBxlG" node="6OfpnAgaowx" resolve="Department" />
       </node>
     </node>
     <node concept="2PBybn" id="6OfpnAgaowH" role="2PBxlY">
       <property role="TrG5h" value="Student" />
-      <ref role="2PBxlP" node="6OfpnAgao_O" />
+      <ref role="2PBxlP" node="6OfpnAgao_O" resolve="Human" />
       <node concept="2PBxex" id="6OfpnAgaoxj" role="2PBxlM">
         <property role="TrG5h" value="name" />
       </node>
@@ -676,7 +676,7 @@
       </node>
       <node concept="2PBxew" id="6OfpnAgaoxu" role="2PBxlK">
         <property role="TrG5h" value="enrolls in" />
-        <ref role="2PBxlG" node="6OfpnAgaowC" />
+        <ref role="2PBxlG" node="6OfpnAgaowC" resolve="Course" />
       </node>
     </node>
   </node>
